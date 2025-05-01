@@ -2,16 +2,19 @@
  * @param {number[]} numbers an array of integers
  * @returns {number} the length of the array
  */
-function getLength(numbers) {
-  // TODO
-}
+let numbers = [1,2,3,4,5,6,7,8,9,10]
+return numbers.length
 
 /**
  * @param {number[]} numbers an array of integers
  * @returns {number} the sum of the numbers
  */
+
 function getSum(numbers) {
-  // TODO
+for(let i = 0; i < numbers.length; i++) {
+  sum += numbers[i]
+}
+return sum;
 }
 
 /**
@@ -19,7 +22,10 @@ function getSum(numbers) {
  * @returns {number} the mean of the numbers
  */
 function getMean(numbers) {
-  // TODO
+  for( i = 0; i < numbers.length; i++) {
+    mean += numbers[i]
+  }
+  return mean;
 }
 
 /**
